@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // Task-1 
+ 
+var visitorAge=30; 
+var youngerFee = 10; 
+var adultFee = 20; 
+var result = (visitorAge <= 5 && visitorAge > 0) ? "free admissions" : (visitorAge >= 5 && visitorAge <= 12) ? 
+("The Admission fee is " + youngerFee+"$" ): (visitorAge >= 
+13&&visitorAge<=60) ? ("The Admission Fee is " + adultFee+"$" ): "not eligible"; 
+console.log(result); 
+
+
+// Task-2 
+
+var the_hour=new Date(); 
+var hour=the_hour.getHours(); 
+console.log(hour); 
+var result=(hour>=5&& hour<=11)?"Good Morning  ":(hour>=12&&hour<=17)?"Good AfterNoon  ":(hour>=18&&hour<=21)?"Good Evening  ":
+(hour>=22&&hour<=24)?"Good Night  ":(hour>=0&&hour<=4)?"Good Night  ":"Invaild Time "; 
+console.log(result); 
+
+ 
+ 
+ 
+// Task-3 
+var num=90; 
+var result=(num==0)?"The Number is Zero" : (num < 0)?"The Number is Neagitive":"The Number is Positive";
+console.log(result); 
+    </script>
+</body>
+</html>
